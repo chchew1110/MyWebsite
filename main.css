@@ -13,6 +13,8 @@ p
 }
 
 
+
+
 .menubar
 {
     background-color: black;
@@ -32,37 +34,148 @@ p
 
     .menuoptions li
     {
-        color: white;
+        
         list-style-type: none;
         float: left;
         overflow: hidden;
+        
         /*border-color: white;
         border-style: solid;
         border-width: 2px;*/
     }
 
-    .menuoptions li a
+    #home 
+    {
+        
+        text-align: center;
+        padding: 5px 10px;
+        background-color: white;
+    }
+
+    #home a:link
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    #home a:visited
+    {
+        color: black;
+    }
+
+    #home:hover
+    {
+        background-color: white;
+        color: black;
+    }
+    
+    #home a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    #portfolio 
+    {
+        color: black;
+        text-align: center;
+        padding: 5px 10px;
+        
+    }
+
+    #portfolio a:link
     {
         text-decoration: none;
         color: white;
-        text-align: center;
-        display: block;
-        padding: 5px 10px;
     }
 
-    .menuoptions a:hover:not(.active)
+    #portfolio a:visited
+    {
+        color: white;
+    }
+
+    #portfolio:hover
     {
         background-color: white;
         color: black;
-        border-style: solid;
-        border-color: black;
     }
+
+    #portfolio a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    #resume 
+    {
+        color: black;
+        text-align: center;
+        padding: 5px 10px;
+        
+    }
+
+    #resume a:link
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+    #resume a:visited
+    {
+        color: white;
+    }
+
+    #resume:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    #resume a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    #contact 
+    {
+        color: black;
+        text-align: center;
+        padding: 5px 10px;
+        
+    }
+
+    #contact a:link
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+    #contact a:visited
+    {
+        color: white;
+    }
+
+    #contact:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    #contact a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
     
-    .menuoptions .active
-    {
-        background-color: white;
-        color: black;
-    }
+
+    
+    
+   
+
+
+
 
 /*
 ul
