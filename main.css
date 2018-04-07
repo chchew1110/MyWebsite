@@ -19,6 +19,7 @@ p
 {
     background-color: black;
     width: 100%;
+    height: 50px;
     position: fixed;
     border-bottom-style: solid;
     border-bottom-color: white;
@@ -28,13 +29,14 @@ p
 {
     float: right;
     display: table;
-    margin: auto;
+    margin: auto 0;
+    height: 100%;
     z-index: 1;
 }
 
     .menuoptions li
     {
-        
+        height: 100%;
         list-style-type: none;
         float: left;
         overflow: hidden;
@@ -46,9 +48,8 @@ p
 
     #home 
     {
-        
         text-align: center;
-        padding: 5px 10px;
+        padding: 15px 10px;
         background-color: white;
     }
 
@@ -79,7 +80,7 @@ p
     {
         color: black;
         text-align: center;
-        padding: 5px 10px;
+        padding: 15px 10px;
         
     }
 
@@ -110,7 +111,7 @@ p
     {
         color: black;
         text-align: center;
-        padding: 5px 10px;
+        padding: 15px 10px;
         
     }
 
@@ -141,7 +142,7 @@ p
     {
         color: black;
         text-align: center;
-        padding: 5px 10px;
+        padding: 15px 10px;
         
     }
 
