@@ -1,7 +1,6 @@
 body
 {
     margin: 0;
-    /*background-image: url("Chris_in_SF.jpg");*/
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: gray;
@@ -51,36 +50,34 @@ p
         width: 150px;
         text-align: center;
         padding: 15px 10px;
-        background-color: white;
+        
     }
 
     #home a:link
     {
         text-decoration: none;
-        color: black;
+        color: white;
     }
 
     #home a:visited
     {
-        color: black;
+        color: white;
     }
 
     #home:hover
     {
-        background-color: white;
+        background-color: gray;
         color: black;
     }
     
     #home a:hover
     {
-        background-color: white;
         color: black;
     }
 
     #portfolio 
     {
         width: 150px;
-        color: black;
         text-align: center;
         padding: 15px 10px;
         
@@ -99,13 +96,11 @@ p
 
     #portfolio:hover
     {
-        background-color: white;
-        color: black;
+        background-color: gray;
     }
 
     #portfolio a:hover
     {
-        background-color: white;
         color: black;
     }
 
@@ -131,13 +126,11 @@ p
 
     #resume:hover
     {
-        background-color: white;
-        color: black;
+        background-color: gray;
     }
 
     #resume a:hover
     {
-        background-color: white;
         color: black;
     }
 
@@ -163,13 +156,11 @@ p
 
     #contact:hover
     {
-        background-color: white;
-        color: black;
+        background-color: gray;
     }
 
     #contact a:hover
     {
-        background-color: white;
         color: black;
     }
 
@@ -178,35 +169,3 @@ p
     
     
    
-
-
-
-
-/*
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    float: right;
-}
-
-li
-{
-    float: left;
-}
-
-li a
-{
-    
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-
-*/
