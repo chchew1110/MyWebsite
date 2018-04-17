@@ -2,23 +2,19 @@
     <head>
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
         <script src="jquery-3.2.1.js"></script>
-        <script src="activeProject.js"></script>
         <script>
         $(function()
         {
         $("#includedContent").load("menubar.html");
           });
         </script>
+        <script src="/activeProject.js"></script>
 	</head>
     <body>
         <div id="includedContent"></div>
+        <div id="tictactoe" onclick="selectProject(this.id)"><p>Tic Tac Toe</p></div>
+        <div id="musicnotes" onclick="selectProject(this.id)"><p>Music Notes</p></div>
         
-        
-        <div id="projectpanel">
-            <div id="tictactoe">
-                <p>Tic Tac Toe</p>
-            </div>
-        </div>
         <div id="previewpanel"></div>
     </body>
 

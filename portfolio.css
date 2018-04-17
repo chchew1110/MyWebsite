@@ -1,31 +1,40 @@
-#projectpanel
-{
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    z-index: -1;
-    float: left;
-}
+
 
 
 #tictactoe
 {
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 100px;
-    margin-top: 55px;
+    top: 55px;
     border: 2px solid white;
+    display: block;
 }
     #tictactoe:hover
     {
         background-color: black;
     }
     
-    #tictactoe p:hover
-    {
-        color: black;
-    }
     #tictactoe p
+    {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+#musicnotes
+{
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    border: 2px solid white;
+    top: 155px;
+}
+    #musicnotes:hover
+    {
+        background-color: black;
+    }
+    
+    #musicnotes p
     {
         text-align: center;
         margin-top: 35px;
@@ -39,7 +48,11 @@
     width: 50%;
     right: 0px; 
     float: right;
-    z-index: -1;
 }
 
+    #previewpanel p
+    {
+        color: white;
+        top: 500px;
+    }
 
