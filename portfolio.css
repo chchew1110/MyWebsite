@@ -1,5 +1,11 @@
 
-
+#projectPanel
+{
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    position: static;
+}
 
 #tictactoe
 {

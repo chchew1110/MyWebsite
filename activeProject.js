@@ -9,7 +9,7 @@ function selectProject(id)
     switch(id)
     {
         case "tictactoe":
-            document.getElementById("previewpanel").innerHTML = "<p>Tic Tac Toe thingy</p>";
+           $("#previewpanel").load("../MyWebsite/TicTacToe/tictactoe.html");
         break;
         case "musicnotes":
             document.getElementById("previewpanel").innerHTML = "<p>Music Note thingy</p>";
