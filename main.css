@@ -22,6 +22,7 @@ p
     position: fixed;
     border-bottom-style: solid;
     border-bottom-color: white;
+    z-index: 1;
 }
 
 .menuoptions
@@ -30,7 +31,7 @@ p
     display: table;
     margin: auto 0;
     height: 100%;
-    z-index: 1;
+    
 }
 
     .menuoptions li
