@@ -12,7 +12,7 @@ function selectProject(id)
            $("#previewpanel").load("../MyWebsite/TicTacToe/tictactoe.html");
         break;
         case "musicnotes":
-            document.getElementById("previewpanel").innerHTML = "<p>Music Note thingy</p>";
+            document.getElementById("previewpanel").innerHTML = "<p>Insert Music Note HTML page here</p>";
         break;
     }
 }
