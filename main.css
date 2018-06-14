@@ -135,36 +135,76 @@ p
         color: black;
     }
 
-    #contact 
+    #contact .dropbtn 
     {
         width: 150px;
-        color: black;
+        height: 50px;
+        color: white;
+        background-color: black;
         text-align: center;
         padding: 15px 10px;
+        border: none;
         
     }
 
-    #contact a:link
+    #contact .dropbtn a:link
     {
         text-decoration: none;
         color: white;
     }
 
-    #contact a:visited
+    #contact .dropbtn a:visited
     {
         color: white;
     }
 
-    #contact:hover
+    #contact .dropbtn:hover
     {
         background-color: gray;
     }
 
-    #contact a:hover
+    #contact .dropbtn a:hover
     {
         color: black;
     }
 
+    #contact .dropdown-content 
+    {
+        display: none;
+        text-align: center;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: solid white;
+        padding-top: 15px;
+    }
+
+    
+    #contact .dropdown-content a:link
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+    #contact .dropdown-content a:visited
+    {
+        color: white;
+    }
+
+    #contact .dropdown-content:hover
+    {
+        background-color: gray;
+    }
+
+    #contact .dropdown-content a:hover
+    {
+        color: black
+    }
+    
+    #contact .show
+    {
+        display: block;
+    }
     
 
     

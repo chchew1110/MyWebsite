@@ -2,15 +2,41 @@
     <head>
         
         <link rel="stylesheet" type="text/css" href="main.css">
+        <script>
+        function dropDown()
+        { document.getElementById("DropDown").classList.toggle("show");
+        }
+            
+        window.onclick = function(e)
+        {
+            
+            if(!e.target.matches('.dropbtn'))
+            {
+                var dropdown = document.getElementById("DropDown");
+           
+                if(dropdown.classList.contains('show'))
+                {
+                    dropdown.classList.remove('show');
+                }
+            }
+        }
+        
+        </script>
     </head>
     
     <body>
+
         <div class="menubar">
             <div class="menuoptions">
                 <li id="home"><a href="https://chchew1110.github.io/MyWebsite/home.html">Home</a></li>
                 <li id="portfolio"><a href="https://chchew1110.github.io/MyWebsite/portfolio.html">Portfolio</a></li>
                 <li id="resume"><a href="https://drive.google.com/file/d/1bl3FwpAWaswytD1E3s07oWk3abJYmt6h/view" target="_blank">Resume</a></li>
-                <li id="contact"><a href='/home.html'>Contact Me</a></li>
+                <li id="contact">
+                    <button class="dropbtn" onmouseover="dropDown()">Contact Me</button>
+                    <div class="dropdown-content" id="DropDown">
+                            <a href="https://www.yahoo.com">LinkedIn</a>     
+                    </div>
+                </li>
             </div>
         </div>
     
