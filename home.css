@@ -20,20 +20,18 @@
     {
         position: relative;
         width: 100%;
-        top: 50%;
-        margin-top: -200px;
+        
+        margin-top: 100px;
         
     }
 
-    .leftpanel .picBox
-    {
-        max-width: 100%;
-        margin: auto;
-    }
     
-    .leftpanel .picBox img
+    .leftpanel .center
     {
-        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
         
     }
 
@@ -52,6 +50,7 @@
     position: absolute;
     height: 100%;
     width: 50%;
+    padding-right: 100px;
     right: 0px; 
     z-index: -1;
 }
@@ -63,8 +62,8 @@
 
     .rightpanel .information
     {
-        position: absolute;
-        margin-left: 25px;
+        position: relative;
+        padding-left: 10px;
         margin-top: 100px;
     }
     
