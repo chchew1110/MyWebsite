@@ -14,10 +14,11 @@ body
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 
-.fcontent
+p
 {
     padding-top: 20px;
     line-height: 1.5;
@@ -28,17 +29,26 @@ img
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
+}
+
+.pictureHold
+{
+    height: 606px;
+    position: relative;
 }
 
 #first-left-picture
 {
+    position: absolute;
     width: 45%;
     display: block;
     float: left;
 }
 #first-right-picture
 {
+    position: absolute;
     width: 45%;
     display: block;
-    float: right;
+    left: 1000px;
 }
