@@ -29,31 +29,22 @@ p
 
 .menuoptions
 {
+    position: relative;
     float: right;
-    display: table;
-    margin: auto 0;
     height: 100%;
+    width: 600px;
     
 }
 
-    .menuoptions li
-    {
-        height: 100%;
-        list-style-type: none;
-        float: left;
-        overflow: hidden;
-        
-        /*border-color: white;
-        border-style: solid;
-        border-width: 2px;*/
-    }
-
+  
     #home 
     {
+        position: absolute;
         width: 150px;
+        height: 20px;
         text-align: center;
         padding: 15px 10px;
-        
+    
     }
 
     #home a:link
@@ -80,9 +71,12 @@ p
 
     #portfolio 
     {
+        position: absolute;
         width: 150px;
+        height: 20px;
         text-align: center;
         padding: 15px 10px;
+        left: 150px;
         
     }
 
@@ -109,10 +103,13 @@ p
 
     #resume 
     {
+        position: absolute;
         width: 150px;
+        height: 20px;
         color: black;
         text-align: center;
         padding: 15px 10px;
+        left: 300px;
         
     }
 
@@ -138,14 +135,16 @@ p
         color: black;
     }
 
+
     #contact .dropbtn 
     {
+        position: absolute;
         width: 150px;
+        height: 25px;
         color: white;
-        background-color: black;
         text-align: center;
         padding: 13px 10px;
-        border-bottom: solid white;
+        left: 450px;
         
     }
 
@@ -172,13 +171,17 @@ p
 
     #contact .dropdown-content 
     {
+        position:absolute;
         display: none;
+        width: 150px;
         text-align: center;
         height: 35px;
         background-color: black;
         color: white;
         border: solid white;
         padding-top: 15px;
+        left: 450px;
+        top: 50px;
     }
 
     
