@@ -67,7 +67,7 @@ function chooseCell (id)
     }
     else
     {
-        image.setAttribute("src","../MyWebsite/TicTacToe/imgs/player-o.png")
+        image.setAttribute("src","../MyWebsite/TicTacToe/imgs/player-o.png");
     }
     document.getElementById(id).appendChild(image);
     document.getElementById(id).removeAttribute("onclick");
