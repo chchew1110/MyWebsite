@@ -1,45 +1,36 @@
 
 
-
-#tictactoe
+.projectSelection
 {
     position: fixed;
     width: 30%;
     height: 100px;
-    top: 55px;
     border: 2px solid white;
     display: block;
 }
-    #tictactoe:hover
+    .projectSelection:hover
     {
         background-color: black;
     }
     
-    #tictactoe p
+    .projectSelection p
     {
         text-align: center;
         margin-top: 35px;
     }
+
+#tictactoe
+{
+
+    top: 50px;
+    
+}
 
 #bestline
 {
-    position: fixed;
-    width: 30%;
-    height: 100px;
-    border: 2px solid white;
-    top: 155px;
+    top: 150px;
 }
-    #bestline:hover
-    {
-        background-color: black;
-    }
-    
-    #bestline p
-    {
-        text-align: center;
-        margin-top: 35px;
-    }
-
+ 
 
 #previewpanel
 {
