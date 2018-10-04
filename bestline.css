@@ -40,6 +40,7 @@ img
 
 #first-left-picture
 {
+    margin-left: 100px;
     position: absolute;
     width: 45%;
     display: block;
@@ -47,6 +48,7 @@ img
 }
 #first-right-picture
 {
+    margin-left: 100px;
     position: absolute;
     width: 45%;
     display: block;
