@@ -38,7 +38,7 @@ img
     position: relative;
 }
 
-#first-left-picture
+.left-picture
 {
     margin-left: 100px;
     position: absolute;
@@ -46,7 +46,7 @@ img
     display: block;
     float: left;
 }
-#first-right-picture
+.right-picture
 {
     margin-left: 100px;
     position: absolute;
